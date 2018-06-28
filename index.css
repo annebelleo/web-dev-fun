@@ -31,3 +31,7 @@ h2 {
     border-style: solid;
     border-color: black transparent transparent transparent;
 }
+
+#hiddenText {
+    visibility: hidden;
+}
