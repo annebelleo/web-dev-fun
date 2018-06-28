@@ -11,13 +11,19 @@
       <h1 id="evenBiggerH1">You can make it <mark>even bigger (and highlighted with a mark tag)</mark> with CSS if you label it with an id.</h1> <!-- <mark> is deprecated - may not work in browser --> 
       <h2>This one is smaller, but it's cooler, because I styled it with CSS.</h2>
       <marquee>you can even be annoying if you want. it's your website.</marquee> <!-- also deprecated -->
-      <p>this text is like your standard news article text unless you're reading large print or satire, probably</p>
-      <a class="hoverText">move your mouse over this.</a>
+      <p>This text is like your standard news article text unless you're reading large print or satire.</p>
+      <a class="hoverText">Move your mouse over this.</a>
       <br>
-      <a href="newpage.html">click on this.</a>
+      <a href="newpage.html">Click on this.</a>
       <br>
       <br>
-      <p>you can even add weird images.</p>
+      <p>You can even add weird images.</p>
       <img src="https://sadanduseless.b-cdn.net/wp-content/uploads/2014/05/bird-with-arms2.jpg" />
+      <br>
+      <p id="surpriseText" onclick="surprise()">Using JavaScript, if you click on this text, you can change it.</p>
+      <p onclick="alertFunction()">You can also make an alert appear if you click on this text.</p>
+      <p id="responseText" onclick="response()">Want to put a response to the alert on the page? Click this.</p>
+      <script src="index.js"></script>
+      <!--extra stuff: HTML5 Geolocation-->
   </body>
 </html>
