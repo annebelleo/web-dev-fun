@@ -1,0 +1,33 @@
+body {
+    background-color: #C0FFEE; /* wow, is this really the background color of the webpage? yes it is. */
+}
+
+h2 {
+    /* hey! I stole this code from https://stackoverflow.com/questions/40557461/rainbow-gradient-on-text-in-css. you can do that */
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#evenBiggerH1 {
+    font-size: 3em;
+}
+
+.hoverText:hover {
+    background-color: yellow;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
