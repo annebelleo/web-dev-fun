@@ -21,17 +21,10 @@ h2 {
     background-color: yellow;
 }
 
-.tooltip .tooltiptext::after {
-    content: " ";
-    position: absolute;
-    top: 100%; /* At the bottom of the tooltip */
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
-}
-
 #hiddenText {
     visibility: hidden;
+}
+
+#code {
+    background-color: white;
 }

@@ -1,53 +1,66 @@
 <!DOCTYPE html>
 <!-- you can copy the basic HTML structure from htmlshell.com -->
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>title</title>
-    <link rel="stylesheet" href="index.css"></link>
-  </head>
-  <body>
-      <h1>Look!!! This is a GIANT HEADING!</h1>
-      <h1 id="evenBiggerH1">You can make it <mark>even bigger (and highlighted with a mark tag)</mark> with CSS if you label it with an id.</h1> <!-- <mark> is deprecated - may not work in browser --> 
-      <h2>This one is smaller, but it's cooler, because I styled it with CSS.</h2>
-      <marquee>you can even be annoying if you want. it's your website.</marquee> <!-- also deprecated -->
-      <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid"> <!-- DEPRECATED also totally copied this code from mozilla -->
-          <marquee behavior="alternate">
-            boing
-          </marquee>
-        </marquee>
-      <p>This text is like your standard news article text unless you're reading large print or satire.</p>
-      <a class="hoverText">Move your mouse over this.</a>
-      <br>
-      <a href="newpage.html">Click on this.</a>
-      <br>
-      <br>
-      <p>You can even add weird images.</p>
-      <img src="https://sadanduseless.b-cdn.net/wp-content/uploads/2014/05/bird-with-arms2.jpg" />
-      <br>
-      <p id="surpriseText" onclick="surprise()">Using JavaScript, if you click on this text, you can change it.</p>
-      <p onclick="alertFunction()">You can also make an alert appear if you click on this text.</p>
-      <p id="responseText" onclick="response()">Want to put a response to the alert on the page? Click this.</p>
-      <p id="hiddenText" display="false">Oh, hey, look at that.</p>
-      <ol>
-          <h3>Do you like unnecessary lists?</h3>
-          <li>Well, here's one.</li>
-          <li>Use it when you really need it.</li>
-      </ol>
-      <ul>
-          <li>Here's one with bullet points.</li>
-          <li>See this?</li>
-          <li>Super cool.</li>
-      </ul>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6T8stXj7Dzg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <code>
+
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <link rel="stylesheet" href="index.css"></link>
+</head>
+
+<body>
+  <h1>Look!!! This is a GIANT HEADING!</h1>
+  <h1 id="evenBiggerH1">You can make it <mark>even bigger (and highlighted with a mark tag)</mark> with CSS if you label it with an id.</h1>
+  <!-- <mark> is deprecated - may not work in browser -->
+  <h2>This one is smaller, but it's cooler, because I styled it with CSS.</h2>
+  <marquee>you can even be annoying if you want. it's your website.</marquee>
+  <!-- also deprecated -->
+  <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
+    <!-- DEPRECATED also totally copied this code from mozilla -->
+    <marquee behavior="alternate">
+      boing
+    </marquee>
+  </marquee>
+  <p>This text is like your standard news article text unless you're reading large print or satire.</p>
+  <a class="hoverText">Move your mouse over this.</a>
+  <br>
+  <a href="newpage.html">Click on this.</a>
+  <br>
+  <br>
+  <b><p>You can even add weird images.</p></b>
+  <img src="https://sadanduseless.b-cdn.net/wp-content/uploads/2014/05/bird-with-arms2.jpg" />
+  <br>
+  <p id="surpriseText" onclick="surprise()">Using JavaScript, if you click on this text, you can change it.</p>
+  <p onclick="alertFunction()">You can also make an alert appear if you click on this text.</p>
+  <p id="responseText" onclick="response()">Want to put a response to the alert on the page? <em>Click this.</em></p>
+  <p id="hiddenText" display="false">Oh, hey, look at that.</p>
+  <ol>
+    <h3>Do you like unnecessary lists?</h3>
+    <li>Well, here's one.</li>
+    <li>Use it when you really need it.</li>
+  </ol>
+  <ul>
+    <li>Here's one with bullet points.</li>
+    <li>See this?</li>
+    <li>Super cool.</li>
+  </ul>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/6T8stXj7Dzg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <div id="code">
+    <code>
         <br>
         var i;
+        <br>
         for (i = 0; i is less than website.length; i++) {
+        <br>
           print "You can show code in a code format using the code tag!";
+          <br>
         }
       </code>
-      <script src="index.js"></script>
-      <!--extra stuff: HTML5 Geolocation-->
-  </body>
+  </div>
+  <br>
+  <small>This information is intended to be used for educational purposes. Just kidding. Well, that too, but this is really to show you how the small tag works.</small>
+  <script src="index.js"></script>
+  <!--extra stuff: HTML5 Geolocation-->
+</body>
+
 </html>
