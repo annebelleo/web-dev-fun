@@ -28,3 +28,7 @@ h2 {
 #code {
     background-color: white;
 }
+
+.checked {
+    color: orange;
+}
